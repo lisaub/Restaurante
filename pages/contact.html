@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/img/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha2-dist/css/bootstrap-reboot.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="../assets/img/pizzaIcon.png"></div>
+            <ul class="menu__normal">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li><a href="./products.html">Productos</a></li>
+                <li><a href="./us.html">Nosotros</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>            
+            <ul class="menu__despleg">
+                <li>Menu
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./products.html">Productos</a></li>
+                        <li><a href="./us.html">Nosotros</a></li>
+                        <li><a href="./contact.html">Contacto</a></li>
+                    </ul>  
+                </li>
+            </ul>  
+            <div class="bigLogo"><img src="../assets/img/pizzaIcon.png"></div>
+        </nav>
+        <h1 class="tituloContacto">Contacto</h1>
+        <hr class="lineaIndex">
+    </header>
+
+    <main>
+        <div>
+            <p class="tarjeta__Texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente placeat quas sint velit hic, similique odit omnis asperiores quod porro, explicabo esse? Nulla eum quaerat illum repellendus consequatur ratione voluptatibus.</p>
+            <h3 class="tarjeta__Texto">Formulario de contacto</h3>
+        </div>
+
+        <form action="contactos.php" method="get" class="grid__formulario">
+            
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            <input type="email" name="mail" id="email" placeholder="Ingrese su email" required>
+            <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su comentario</textarea>
+            <label form="acepto" class="acceptConditions">Acepta Términos y condiciones</label>
+            <input type="checkbox" name="acepto" value="si" required class="checkbox">
+            <br>
+            <button type="submit" value="Enviar" class="btn btn-secondary enviar">Enviar</button>
+            <button type="reset" value="Reiniciar" class="btn btn-secondary reiniciar">Reiniciar</button>
+        </form>
+
+        <h2 class="tarjeta__Texto">Ubicación</h2>
+        <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.020244508982!2d2.161031928212186!3d41.39536671293736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2ecbad723b5%3A0x1de158bfe208ca63!2sCarrer%20de%20Roger%20de%20Ll%C3%BAria%2C%2008009%20Barcelona!5e0!3m2!1ses!2ses!4v1653689266658!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer id="footer">
+        <h5>@2023 lisub, todos los derechos reservados</h5>
+    </footer>
+</body>
+</html>
