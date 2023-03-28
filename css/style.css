@@ -461,10 +461,16 @@ div p {
         display: none;
     }
     
+    .navbar ul li a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+    }
+    
 }
 
-
-@media (max-width: 320px) {
+@media (max-width: 404px) {
     .navbar .bigLogo {
         display: none;
     }
@@ -515,6 +521,10 @@ div p {
     .dropdown:hover .dropdown-content a {display: block;}
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+}
+
+@media (max-width: 320px) {
+
     .tituloContacto {
         color: #473C33;
         font-family: 'Lato', sans-serif;
@@ -534,6 +544,10 @@ div p {
 
     .tituloNosotros {
         font-size: 24px;
+    }
+
+    .loremIpsum  {
+        font-size: 14px;
     }
 
     .elisa {
